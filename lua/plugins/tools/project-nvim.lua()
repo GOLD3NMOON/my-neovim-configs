@@ -1,0 +1,15 @@
+return {
+	{
+		"ahmedkhalf/project.nvim",
+		config = function()
+			require("project_nvim").setup({
+				manual_mode = false,
+				detection_methods = { "lsp", "pattern" },
+				patterns = { "Makefile", "package.json", "pyproject.toml", "project.conf" },
+			})
+			vim.cmd([[
+        autocmd User ProjectNvimChangeDirectory cd %:p:h
+      ]])
+		end,
+	},
+}
