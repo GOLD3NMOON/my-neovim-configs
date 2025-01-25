@@ -7,22 +7,17 @@ return {
 				line = "gcc",
 			},
 			on_attach = function()
-				-- Define o comando Uncomment
 				vim.api.nvim_create_user_command("Uncomment", function(opts)
 					local api = require("Comment.api")
 					local utils = require("Comment.utils")
-
-					-- Detecta se estamos em modo visual ou apenas em uma linha
 					local range = utils.get_region()
 
 					if opts.range == 0 then
-						-- Remove o comentário da linha atual
 						api.uncomment.linewise.current()
 					else
-						-- Remove o comentário das linhas selecionadas
 						api.uncomment.linewise({ range.srow, range.erow })
 					end
-				end, { range = true }) -- Permite seleção de linhas com visual mode
+				end, { range = true })
 			end,
 		},
 	},
