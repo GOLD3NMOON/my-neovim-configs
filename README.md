@@ -45,32 +45,36 @@ After cloning the repository, your file structure will look like this:
 ├── init.lua
 ├── lazy-lock.json
 ├── lua
-│   ├── core
-│   │   ├── keymaps.lua
-│   │   ├── lazy.lua
-│   │   └── settings.lua
-│   └── plugins
-│       ├── editor
-│       │   ├── auto-pairs.lua
-│       │   ├── comments.lua
-│       │   ├── indent-blankline.lua
-│       │   └── nvim-treesitter.lua
-│       ├── lsp
-│       │   ├── mason.lua
-│       │   ├── nvim-cmp.lua
-│       │   └── trouble.lua
-│       ├── tools
-│       │   ├── cord.lua
-│       │   ├── nvim-tree.lua
-│       │   ├── plenary.lua
-│       │   ├── telescope.lua
-│       │   ├── toggleterm.lua
-│       │   └── venv-selector.lua
-│       └── ui
-│           ├── lualine.lua
-│           ├── noice.lua
-│           └── themes.lua
+│   ├── core
+│   │   ├── keymaps.lua
+│   │   ├── lazy.lua
+│   │   └── settings.lua
+│   └── plugins
+│       ├── editor
+│       │   ├── auto-pairs.lua
+│       │   ├── codeium.lua
+│       │   ├── comments.lua
+│       │   ├── indent-blankline.lua
+│       │   └── nvim-treesitter.lua
+│       ├── lsp
+│       │   ├── mason.lua
+│       │   └── nvim-cmp.lua
+│       ├── tools
+│       │   ├── cord.lua
+│       │   ├── lazygit.lua
+│       │   ├── nvim-tree.lua
+│       │   ├── plenary.lua
+│       │   ├── telescope.lua
+│       │   ├── toggleterm.lua
+│       │   └── venv-selector.lua
+│       └── ui
+│           ├── barbar.lua
+│           ├── lualine.lua
+│           ├── noice.lua
+│           └── themes.lua
 └── README.md
+
+
 ```
 
 ---
