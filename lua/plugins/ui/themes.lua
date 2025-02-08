@@ -1,9 +1,6 @@
 return {
-	{
-		"ramojus/mellifluous.nvim",
-		config = function()
-			require("mellifluous").setup({})
-			vim.cmd("colorscheme mellifluous")
-		end,
-	},
+    {
+      "felipeagc/fleet-theme-nvim",
+      config = function() vim.cmd("colorscheme fleet") end
+    }
 }
