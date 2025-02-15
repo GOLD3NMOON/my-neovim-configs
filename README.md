@@ -68,13 +68,12 @@ After cloning the repository, your file structure will look like this:
 │       │   ├── toggleterm.lua
 │       │   └── venv-selector.lua
 │       └── ui
-│           ├── barbar.lua
 │           ├── lualine.lua
 │           ├── noice.lua
-│           └── themes.lua
+│           ├── tabby.lua
+│           ├── themes.lua
+│           └── transparent.lua
 └── README.md
-
-
 ```
 
 ---
