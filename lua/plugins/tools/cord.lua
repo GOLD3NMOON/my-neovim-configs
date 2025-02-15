@@ -1,7 +1,12 @@
 return {
 	{
 		"vyfor/cord.nvim",
-		branch = "client-server",
+        event = "VeryLazy",
+        config = function()
+            require("cord").setup({
+                auto_connect = true
+            })
+        end,
 		opts = {
 			editor = {
 				client = "neovim",
@@ -88,15 +93,9 @@ return {
 			},
 			plugins = nil,
 			advanced = {
-				server = {
-					update = "fetch",
-					pipe_path = nil,
-					executable_path = nil,
-					timeout = 300000,
-				},
 				discord = {
 					reconnect = {
-						enabled = false,
+						enabled = true,
 						interval = 5000,
 						initial = true,
 					},
@@ -104,5 +103,14 @@ return {
 			},
 		},
 	},
+	--
+	-- {
+	-- 	"mistweaverco/discord.nvim",
+	-- 	event = "VeryLazy",
+ --        config = function()
+ --            require("discord").setup({
+ --                auto_connect = true
+ --            })
+ --        end
+	-- },
 }
-

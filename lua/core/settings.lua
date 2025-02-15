@@ -11,9 +11,6 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.g.mapleader = " "
 vim.opt.fillchars = { eob = " " }
-vim.opt.termguicolors = true
 
-vim.o.foldcolumn = "1"
-vim.o.foldlevel = 99
-vim.o.foldlevelstart = 99
-vim.o.foldenable = true
+vim.opt.showtabline=2
+vim.opt.termguicolors = true

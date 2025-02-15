@@ -12,6 +12,21 @@ return {
 			},
 			view = {
 				width = 45,
+                float = {
+                    enable = true,
+                    open_win_config = function()
+                        local screen_height = vim.opt.lines:get() - vim.opt.cmdheight:get()
+                        return {
+                            border = "rounded",
+                            style = "minimal",
+                            relative = "editor",
+                            row = 1,
+                            col = 1,
+                            width = 45,
+                            height = screen_height
+                        }
+                    end
+                }
 			},
 			renderer = {
 				root_folder_label = false,
