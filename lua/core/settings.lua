@@ -14,3 +14,6 @@ vim.opt.fillchars = { eob = " " }
 
 vim.opt.showtabline=2
 vim.opt.termguicolors = true
+vim.opt.pumblend = 0 
+
+vim.cmd("colorscheme moonfly")
