@@ -48,7 +48,8 @@ After cloning the repository, your file structure will look like this:
 │   ├── core
 │   │   ├── keymaps.lua
 │   │   ├── lazy.lua
-│   │   └── settings.lua
+│   │   ├── settings.lua
+│   │   └── transparent.lua
 │   └── plugins
 │       ├── editor
 │       │   ├── auto-pairs.lua
@@ -57,8 +58,8 @@ After cloning the repository, your file structure will look like this:
 │       │   ├── indent-blankline.lua
 │       │   └── nvim-treesitter.lua
 │       ├── lsp
-│       │   ├── mason.lua
-│       │   └── nvim-cmp.lua
+│       │   ├── blink-cmp.lua
+│       │   └── mason.lua
 │       ├── tools
 │       │   ├── cord.lua
 │       │   ├── lazygit.lua
@@ -71,8 +72,7 @@ After cloning the repository, your file structure will look like this:
 │           ├── lualine.lua
 │           ├── noice.lua
 │           ├── tabby.lua
-│           ├── themes.lua
-│           └── transparent.lua
+│           └── themes.lua
 └── README.md
 ```
 
