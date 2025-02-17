@@ -10,8 +10,8 @@ return {
 
 				keymap = {
 					preset = "default",
-                    ['Tab'] = {'accept'},
-                    },
+					["<CR>"] = { "accept", "fallback" },
+				},
 
 				appearance = {
 					use_nvim_cmp_as_default = true,
