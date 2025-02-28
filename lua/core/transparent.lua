@@ -4,7 +4,7 @@ local groups = {
   "Conditional", "Repeat", "Operator", "Structure", "LineNr", "NonText",
   "SignColumn", "CursorLine", "CursorLineNr", "EndOfBuffer",
   "Pmenu", "PmenuSel", "PmenuSbar", "PmenuThumb", "TabLineFill",
-  "StatusLine", "StatusLineNC"
+  "StatusLine", "StatusLineNC", "TodoFgTODO"
 }
 
 for _, group in ipairs(groups) do
