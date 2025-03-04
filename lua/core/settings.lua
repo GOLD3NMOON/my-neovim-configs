@@ -16,4 +16,8 @@ vim.opt.showtabline=2
 vim.opt.termguicolors = true
 vim.opt.pumblend = 0 
 
+vim.opt.relativenumber = true
 vim.o.signcolumn = "no"
+
+-- colorscheme
+vim.cmd("colorscheme neopywal")
